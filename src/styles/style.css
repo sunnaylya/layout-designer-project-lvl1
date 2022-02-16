@@ -123,10 +123,6 @@ button {
   text-decoration: none;
 }
 
-.mgb-30px {
-  margin-bottom: 30px;
-}
-
 header.container {
   background-image: url("../images/background.png");
   background-repeat: no-repeat;
