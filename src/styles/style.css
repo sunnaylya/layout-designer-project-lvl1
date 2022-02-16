@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
 }
+
 @font-face {
   font-family: Neucha, cursive;
   src: url("../fonts/Neucha/Neucha-Regular.ttf");
@@ -28,8 +29,12 @@
 /* Этич классов ещё нет в HTML */
 .section-basic-styles {
   max-width: 1110px;
-  text-align: center;
   margin: 100px auto;
+}
+
+.how-header {
+  margin-top: 100px;
+  margin-bottom: 20px;
 }
 
 .h1 {
@@ -64,14 +69,23 @@
   text-align: left;
 }
 
+.tac {
+  text-align: center;
+}
+
 .psa {
   position: absolute;
 }
+
 .img {
   position: relative;
   height: 525px;
   top: 55px;
   right: -270px;
+}
+
+.vam {
+  vertical-align: middle;
 }
 
 .column {
@@ -89,12 +103,13 @@ button {
 }
 
 .td-none {
-text-decoration: none;
+  text-decoration: none;
 }
 
 .mgb-30px {
   margin-bottom: 30px;
 }
+
 header.container {
   background-image: url("../images/background.png");
   background-repeat: no-repeat;
@@ -102,8 +117,63 @@ header.container {
 }
 
 .video {
-  position: absolute;
-  display: block;
-  margin: 0 auto;
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+}
+
+.h52px {
+  font-size: 52px;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.card {
+  display: flex;
+  padding: 24px;
+  flex-direction: column;
+  background-color: var(--light);
+  width: 300px;
+  height: 326px;
+  text-align: left;
+}
+
+.card-header {
+  font-size: 64px;
+  font-family: "Neucha", cursive;
+  line-height: 1em;
+  margin-bottom: 40px;
+}
+.five-dist-h {
+  font-weight: normal;
+  font-family: Neucha,;
+}
+
+.card-h {
+  padding: 0;
+  width: 380px;
+  background-color: var(--translucent-dark);
+}
+
+.three-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.section-five-distortions{
+  background-color: var(--main-dark);
+  padding: 100px;
+}
+
+.card-link {
+  text-decoration: none;
+  color: #2a2626;
+}
+
+.flex-div {
+  display: flex;
+  justify-content: space-between;
 }
