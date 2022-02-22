@@ -357,7 +357,7 @@ iframe {
 }
 
 .section-five-distortions {
-  padding-top: 103px;
+  padding-top: 100px;
 }
 
 .black-container {
@@ -397,4 +397,8 @@ header .h1 {
 }
 header .text {
   margin-top: -63px;
+}
+
+.video-section {
+  padding: 107px 0;
 }
