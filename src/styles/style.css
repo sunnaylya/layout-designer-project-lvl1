@@ -226,7 +226,8 @@ header:before {
   position: relative;
   height: 525px;
   top: 55px;
-  right: -270px;
+  /* right: -270px; */
+  right: -291px;
 }
 
 .mgb-30px {
@@ -389,7 +390,13 @@ iframe {
  }
 
  .btn-send::before {
-   content: url(../images/send.svg);
-   
+   content: url(../images/send.svg); 
  }
 
+header .h1 {
+  /* position: relative;
+  z-index: 2;
+  top: 364px;
+  left: -6px; */
+  position: absolute;
+}
