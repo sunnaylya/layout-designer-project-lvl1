@@ -393,9 +393,8 @@ iframe {
  }
 
 header .h1 {
-  /* position: relative;
-  z-index: 2;
-  top: 364px;
-  left: -6px; */
   position: absolute;
+}
+header .text {
+  margin-top: -63px;
 }
