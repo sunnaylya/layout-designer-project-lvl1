@@ -335,7 +335,7 @@ button {
   gap: 30px;
 }
 
-.section-five-distortions {
+.navigation section{
   background-color: var(--primary-dark);
 }
 
@@ -356,7 +356,7 @@ iframe {
   margin-bottom: -207px;
 }
 
-.section-five-distortions {
+.navigation section {
   padding-top: 100px;
 }
 
@@ -399,6 +399,3 @@ header .text {
   margin-top: -63px;
 }
 
-.video-section {
-  padding: 107px 0;
-}
