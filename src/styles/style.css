@@ -225,8 +225,7 @@ header:before {
 .img {
   position: relative;
   height: 525px;
-  top: 55px;
-  /* right: -270px; */
+  top: -49px;
   right: -291px;
 }
 
@@ -363,7 +362,7 @@ iframe {
 
 .black-container {
    background-color: var(--primary-dark);
-   padding: 39px 55px;
+   padding: 51px 55px;
  }
 
  input {
