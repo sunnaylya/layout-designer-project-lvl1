@@ -335,7 +335,7 @@ button {
   gap: 30px;
 }
 
-.navigation section{
+.navigation-section{
   background-color: var(--primary-dark);
 }
 
@@ -356,40 +356,40 @@ iframe {
   margin-bottom: -207px;
 }
 
-.navigation section {
+.navigation-section {
   padding-top: 100px;
 }
 
 .black-container {
-   background-color: var(--primary-dark);
-   padding: 51px 55px;
+  background-color: var(--primary-dark);
+  padding: 51px 55px;
  }
 
- input {
-   height: 20px;
-   padding: 15px;
-   flex-grow: 2;
-   border: none;
+input {
+  height: 20px;
+  padding: 15px;
+  flex-grow: 2;
+  border: none;
  }
 
- label {
-   position: relative;
-   bottom: 9px;
+label {
+  position: relative;
+  bottom: 9px;
  }
 
- .btn-more {
-   margin-left: 570px;
+.btn-more {
+  margin-left: 570px;
  }
 
- .btn-send {
-   margin: 0;
-   height: 50px;
-   width: 70px;
-   cursor: pointer;
+.btn-send {
+  margin: 0;
+  height: 50px;
+  width: 70px;
+  cursor: pointer;
  }
 
- .btn-send::before {
-   content: url(../images/send.svg); 
+.btn-send::before {
+  content: url(../images/send.svg); 
  }
 
 header .h1 {
